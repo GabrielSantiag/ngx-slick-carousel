@@ -67,5 +67,8 @@
     "@types/slick-carousel": "^1.6.40",
     "slick-carousel": "^1.8.1",
     "tslib": "^2.7.0"
-  }
+  },
+  "publishConfig": {
+  "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+}
 }
