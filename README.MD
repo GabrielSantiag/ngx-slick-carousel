@@ -1,7 +1,5 @@
-# ngx-slick-carousel
+# gsanmor-ngx-slick-carousel
 
-[![npm version](https://badge.fury.io/js/ngx-slick-carousel.svg)](https://badge.fury.io/js/ngx-slick-carousel)
-[![Build Status](https://travis-ci.com/leo6104/ngx-slick-carousel.svg?branch=master)](https://travis-ci.com/leo6104/ngx-slick-carousel)
 
 1. Support Angular 17 (not compatible with <= 16, if you want, use 15.0.0 release)
 2. Support Server side rendering
@@ -15,7 +13,7 @@ To install this library, run:
 ```bash
 $ npm install jquery --save
 $ npm install slick-carousel --save
-$ npm install ngx-slick-carousel --save
+$ npm install gsanmor-ngx-slick-carousel --save
 ```
 
 ## Consuming your library
@@ -23,7 +21,7 @@ $ npm install ngx-slick-carousel --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install ngx-slick-carousel --save
+$ npm install gsanmor-ngx-slick-carousel --save
 ```
 
 and then from your Angular standalone component:
@@ -32,7 +30,7 @@ and then from your Angular standalone component:
 import { Component } from '@angular/core';
 
 // Import your library
-import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { SlickCarouselModule } from 'gsanmor-ngx-slick-carousel';
 
 @Component({
   ...,
@@ -69,7 +67,7 @@ export class ExampleComponent {
 Once your library is imported, you can use its components, directives and pipes in your Angular application:
 ```html
   <!-- You can now use your library component in app.component.html -->
-    <ngx-slick-carousel class="carousel" 
+    <gsanmor-ngx-slick-carousel class="carousel" 
                         #slickModal="slick-carousel" 
                         [config]="slideConfig" 
                         (init)="slickInit($event)"
@@ -81,7 +79,7 @@ Once your library is imported, you can use its components, directives and pipes 
                   <img src="{{ slide.img }}" alt="" width="100%">
             </div>
         }
-    </ngx-slick-carousel>
+    </gsanmor-ngx-slick-carousel>
     
     <button (click)="addSlide()">Add</button>
     <button (click)="removeSlide()">Remove</button>
@@ -150,4 +148,4 @@ $ npm run lint
 
 ## License
 
-MIT © [leo6104](mailto:heo@mapiacompany.com)
+MIT ©

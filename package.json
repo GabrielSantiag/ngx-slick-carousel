@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leo6104/ngx-slick-carousel"
+    "url": "https://github.com/gsanmor/ngx-slick-carousel"
   },
   "author": {
-    "name": "leo6104",
+    "name": "gsanmor",
     "email": "heo@mapiacompany.com"
   },
   "keywords": [
@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leo6104/ngx-slick-carousel/issues"
+    "url": "https://github.com/gsanmor/ngx-slick-carousel/issues"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.2",
