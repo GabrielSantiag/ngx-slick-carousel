@@ -1,14 +1,14 @@
 {
-  "name": "ngx-slick-carousel",
+  "name": "gsanmor-ngx-slick-carousel",
   "version": "15.0.0",
   "scripts": {
-    "build": "ng build ngx-slick-carousel && cp README.MD dist/README.MD",
+    "build": "ng build gsanmor-ngx-slick-carousel && cp README.MD dist/README.MD",
     "docs": "npm run docs:build",
     "docs:build": "compodoc -p tsconfig.json -n ngx-slick -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --project tsconfig.json src/**/*.ts",
-    "test": "ng test ngx-slick-carousel"
+    "test": "ng test gsanmor-ngx-slick-carousel"
   },
   "repository": {
     "type": "git",
@@ -65,10 +65,11 @@
   },
   "dependencies": {
     "@types/slick-carousel": "^1.6.40",
+    "gsanmor-ngx-slick-carousel": "^15.0.0",
     "slick-carousel": "^1.8.1",
     "tslib": "^2.7.0"
   },
   "publishConfig": {
-  "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
-}
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  }
 }

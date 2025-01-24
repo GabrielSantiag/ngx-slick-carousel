@@ -27,7 +27,7 @@ declare const jQuery: any;
  * Slick component
  */
 @Component({
-  selector: 'ngx-slick-carousel',
+  selector: 'gsanmor-ngx-slick-carousel',
   exportAs: 'slick-carousel',
   providers: [{
     provide: NG_VALUE_ACCESSOR,

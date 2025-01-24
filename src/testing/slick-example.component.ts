@@ -5,7 +5,7 @@ import { SlickCarouselComponent } from '../slick.component';
 @Component({
   selector: 'slick-use-example',
   template: `
-      <ngx-slick-carousel #slickModal="slick-carousel"
+      <gsanmor-ngx-slick-carousel #slickModal="slick-carousel"
                           [config]="slideConfig"
                           (init)="slickInit($event)"
                           (breakpoint)="breakpoint($event)"
@@ -14,7 +14,7 @@ import { SlickCarouselComponent } from '../slick.component';
           <div ngxSlickItem *ngFor="let slide of slides" class="slide">
               <img src="{{ slide.img }}" alt="" width="100%">
           </div>
-      </ngx-slick-carousel>
+      </gsanmor-ngx-slick-carousel>
 
       <button (click)="addSlide()">Add</button>
       <button (click)="removeSlide()">Remove</button>

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "src",
   "projects": {
-    "ngx-slick-carousel": {
+    "gsanmor-ngx-slick-carousel": {
       "root": "src",
       "projectType": "library",
       "architect": {
